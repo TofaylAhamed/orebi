@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Bannarone from '../../assets/Bannerone.png'
 const Banner = () => {
   return (
     <Link to={"/shop"}>
-    <div className="bg-[url(src/assets/Bannerone.png)] h-[500px] bg-no-repeat bg-center bg-cover"></div>
+    <div style={{ backgroundImage: `url(${Bannarone})`}} className="h-[500px] bg-no-repeat bg-center bg-cover"></div>
     </Link>
   )
 }
