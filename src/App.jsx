@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './Components/Pages/Home';
-import RootLayout from './Components/Layouts/RootLayout';
+import Home from './components/Pages/Home';
+import RootLayout from './components/Layouts/RootLayout';
 import {Routes,Route,} from 'react-router-dom';
-import About from './Components/Pages/About';
-import Shop from './Components/Pages/Shop';
-import Contract from './Components/Pages/Contract';
-import Jounal from './Components/Pages/Jounal';
-import Error from './Components/Pages/Error';
+import About from './components/Pages/About';
+import Shop from './components/Pages/Shop';
+import Contract from './components/Pages/Contract';
+import Jounal from './components/Pages/Jounal';
+import Error from './components/Pages/Error';
 
 function App() {
   return (
