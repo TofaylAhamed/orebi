@@ -5,7 +5,7 @@ import productOne from '../assets/productOne.png'
 import productTwo from '../assets/productTwo.png'
 import productThree from '../assets/productThree.png'
 import productFour from '../assets/productFour.png'
-import Container from './Container'
+import Container from '/Container'
 
 const Product = () => {
   return (

@@ -3,9 +3,9 @@ import productFive from '../assets/ProductFive.png'
 import productSix from '../assets/ProductSix.png'
 import productSeven from '../assets/ProductSeven.png'
 import productEaight from '../assets/ProductEaight.png'
-import Badge from './Badge'
-import Image  from './Image'
-import Container from './Container'
+import Badge from '../Badge'
+import Image  from '../Image'
+import Container from '../Container'
 
 const BestSellerProduct = () => {
   return (
